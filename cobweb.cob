@@ -211,7 +211,21 @@
                 03 entry-value  PIC X(1024) VALUE "IPSUM".
                 03 parent       PIC X(32)   VALUE "UNDEFINED".
 
+
        PROCEDURE DIVISION.
+      
+      *> We will use the tried and trusted COBOL COPYBOOK method
+      *> to include our CSS style, CSS utilities and any native
+      *> Javascript we may want to use.  NATIVE Javascript only.
+
+       COPY style-css.cpy.
+
+       COPY slider-css.cpy.
+
+       COPY forms-css.cpy.
+
+       COPY validate-js.cpy.
+
         HTML-PARAGRAPH.
 
       *> This program is really a template for getting RESPONSIVE

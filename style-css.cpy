@@ -1,5 +1,6 @@
       *> FILE style-css.cpy 
       *> vim: set expandtab tabstop=3 shiftwidth=3 autoindent :
+           >>SOURCE FORMAT IS FREE
       *>
       *> This file contains the CSS3 directives to control the
       *> look, feel and action of the general web 
@@ -11,17 +12,6 @@
       *> Built    Nov 26 2013 06:25:08
       *> Packaged Feb 06 2009 10:30:55 CET
       *>
-      *> Writing HTML5/CSS3 RESPONSIVE Web pages 
-      *> using OpenCOBOL.  A little fun XMAS task 
-      *> I set for myself as I am getting tired of
-      *> spotty num-nums telling me that to write
-      *> Web 2.0 pages you NEED Ruby on Rails, Haskell,
-      *> F#, Scala and or some unhealthy mixture of
-      *> the lot of the rubbish.  Don't get me wrong,
-      *> I am no great lover of COBOL.  Of course I can use it. 
-      *> This just shows that a well structured bit of
-      *> code can perform ANY task if asked nicely.
-      *>
       *> Mark Addinall
       *> web2.cob and associated files are Copyright (C) Mark Addinall,
       *> 2013, 2014
@@ -29,41 +19,41 @@
       *> Brisbane, Australia
       *> HAVE FUN!
 
-        01 STYLE-CSS3.
-            03 HTML-GLOBAL-RESET    PIC X(254) VALUE "* {
+            01 STYLE-CSS3.
+                03 HTML-GLOBAL-RESET    PIC X(254) VALUE "* {
       -                                     "margin: 0px;
       -                                     "padding: 0px;outline: none;
       -                                     "}".
 
-            03 VIEWPORT-RESET       PIC X(254) VALUE "@viewport {
+                03 VIEWPORT-RESET       PIC X(254) VALUE "@viewport {
       -                                     "width: device-width;
       -                                     "zoom: 1;
       -                                     "}".
 
-            03 IMAGE-RESET          PIC X(254) VALUE "img,video,canvas {
+                03 IMAGE-RESET          PIC X(254) VALUE "img,video {
       -                                         "width: 100%;
       -                                         "}".  
       
       
-            03 HTML-BODY-BASE-1     PIC X(254) VALUE "html,body {
+                03 HTML-BODY-BASE-1     PIC X(254) VALUE "html,body {
       -                             "background: rgba(242,230,236,1);
       -                             "background: -moz-linear-gradient
       -                             "(top, rgba(242,230,236,1) 0%, 
       -                             "rgba(255,140,201,1) 100%);".
 
-            03 HTML-BODY-BASE-2     PIC X(254) VALUE "background: 
+                03 HTML-BODY-BASE-2     PIC X(254) VALUE "background: 
       -                             "-webkit-gradient(left top, 
       -                             "left bottom, color-stop(0%, 
       -                             "rgba(242,230,236,1)), 
       -                             "color-stop(100%, 
       -                             "rgba(255,140,201,1)));".
 
-            03 HTML-BODY-BASE-3     PIC X(254) VALUE "background: 
+                03 HTML-BODY-BASE-3     PIC X(254) VALUE "background: 
       -                             "-webkit-linear-gradient(top, 
       -                             "rgba(242,230,236,1) 0%, 
       -                             "rgba(255,140,201,1) 100%);".
 
-            03 HTML-BODY-BASE-4     PIC X(254) VALUE "background: 
+                03 HTML-BODY-BASE-4     PIC X(254) VALUE "background: 
       -                             "-o-linear-gradient(top, 
       -                             "rgba(242,230,236,1) 0%, 
       -                             "rgba(255,140,201,1) 100%);".

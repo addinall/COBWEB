@@ -216,16 +216,16 @@
       *> Javascript we may want to use.  NATIVE Javascript only.
 
 
-        COPY style-css.cpy.
+           COPY style-css.
 
 
-        COPY slider-css.cpy.
+           COPY slider-css.
 
 
-        COPY forms-css.cpy.
+           COPY forms-css.
 
 
-        COPY validate-js.cpy.
+           COPY validate-js.
 
 
        PROCEDURE DIVISION.
@@ -276,7 +276,19 @@
             END-DISPLAY.
 
        OUTPUT-CSS3.
-
+           DISPLAY "<style type=""text/css"">".
+           DISPLAY
+                HTML-GLOBAL-RESET
+                VIEWPORT-RESET
+                IMAGE-RESET
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+                HTML-BODY-BASE
+            END-DISPLAY
 
        START-BODY.
            DISPLAY "    <body>".

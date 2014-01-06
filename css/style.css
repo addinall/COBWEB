@@ -1,0 +1,131 @@
+    * {
+        margin: 0px;
+        padding: 0px;outline: none;
+ }
+
+/* Start of the RESPONSIVE design so that this thing will play
+ * nicely on fondleslabs and telephones
+ *
+ */
+
+
+   @viewport {
+      width: device-width;
+      zoom: 1;
+   }
+
+
+
+
+  img, video, canvas {
+     width: 100%;
+  }  
+      
+      
+    html,body {
+        background: rgba(242,230,236,1);
+        background: -moz-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,230,236,1)), color-stop(100%, rgba(255,140,201,1)));
+        background: -webkit-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
+        background: -o-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
+        background: -ms-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
+        background: linear-gradient(to bottom, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e6ec', endColorstr='#ff8cc9', GradientType=0 );
+        background-attachment:fixed;       
+    }
+     
+
+    #container {
+        max-width: 960px;
+          border: 2px solid black;
+          margin: 0px auto;
+    }
+
+      #header {
+          width: 100%;
+          border: 2px solid blue;
+      }
+
+
+      #column_one {
+        width: 50%;
+        float: left;
+          border: 2px solid green;
+      }
+      }
+      
+      
+      #column_two {
+        width: 50%
+        float: right;
+          border: 2px solid purple;
+      }
+     
+
+      #footer {
+          width: 100%;
+          border: 2px solid purple;
+     }
+      
+             
+      .p1   {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #001400;
+        margin-top:20px;
+      }
+      
+      
+      
+      .p2   {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #FFFFFF;
+        margin-top:20px;
+      }
+        
+     .p3   {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #B2E0C2;
+        margin-top:20px;
+      }
+     
+     
+      
+      h1   {
+        font-size: 32px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #006600;
+        padding-top: 20px;
+        margin-top:20px;
+      }
+      
+      
+      h2   {
+        font-size: 26px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #006600;
+        padding-top: 20px;
+        margin-top:20px;
+      }
+
+
+/* Our last bit of RESPONSIVE MAGIC for the fondleslabs and telephones.
+ * we have fluid colums so the grow and shrink as the viewport does,
+ * however, when we get down to telephone size, we no longer have
+ * the real estate for two columns, so turn off the floats.  */
+
+
+   @media all and (max-width: 640px) {
+      #colone, #coltwo {
+        float: none;
+        width: auto;
+      }
+    }                                   
+

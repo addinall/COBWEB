@@ -1,0 +1,207 @@
+    form {
+        border: 1px solid #003300;
+        width: 250px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+
+        background: rgba(209,201,209,1);
+        background: -moz-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,201,209,1)), color-stop(2%, rgba(209,201,209,1)), color-stop(2%, rgba(209,201,209,1)), color-stop(100%, rgba(68,65,68,1)));
+        background: -webkit-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -o-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -ms-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: linear-gradient(to bottom, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1c9d1', endColorstr='#444144', GradientType=0 );
+
+        margin:50px auto 5px auto;
+        padding: 20px;
+        -moz-box-shadow:0px -5px 300px #000000;
+        -webkit-box-shadow:0px -5px 300px #000000;
+        box-shadow:0px -5px 300px #000000;
+    }
+
+    .form_helper {
+        border: 1px solid #003300;
+        width: 120px;
+        height: 60px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        background: rgba(148,145,148,1);
+        background: -moz-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(148,145,148,1)), color-stop(14%, rgba(115,120,115,1)), color-stop(100%, rgba(26,25,26,1)));
+        background: -webkit-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -o-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -ms-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: linear-gradient(to bottom, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#949194', endColorstr='#1a191a', GradientType=0 );
+         margin:1px auto;
+        /*padding: 10:px;*/
+        -moz-box-shadow:0px -5px 300px #000000;
+        -webkit-box-shadow:0px -5px 300px #000000;
+        box-shadow:0px -5px 300px #000000;
+    }
+
+    label {
+        font-size: 12px;
+        font-family: arial, sans-serif;
+        list-style-type: none;
+        color: #fff;
+        text-shadow: #000 1px 1px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: block;
+    }
+    
+    input {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #003300;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #33AD33;
+        width: 230px;
+    }
+
+    .small_input {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #003300;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #33AD33;
+        width: 100px;
+    }
+
+    select {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #003300;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #33AD33;
+        width: 100px;
+    }
+
+    input.submit {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        width: 100px;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CC00), to(#4C6600));   
+        background:  -moz-linear-gradient(19% 75% 90deg,#4C6600, #99CC00);
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: #000 1px 1px;
+        border-top: 1px solid #003300;
+        margin-top: 10px;
+    }
+
+    input.submit:hover {
+        -webkit-box-shadow: 0px 0px 2px #000;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCFF33), to(#526614));
+        background:  -moz-linear-gradient(19% 75% 90deg,#526614, #CCFF33);
+    } 
+
+    input.submit:active {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#781bb9), to(#963AD6));
+        background:  -moz-linear-gradient(19% 75% 90deg,#963AD6, #781bb9);
+    }
+
+    input:hover {
+        -webkit-box-shadow: 0px 0px 4px #000;
+        background: #80CC80;
+    }
+                      
+   select:hover {
+        -webkit-box-shadow: 0px 0px 4px #000;
+        background: #80CC80;
+    }                              
+
+/* these next two bits of Martian represent our GOOG-BAD icons
+ * in the input fields.  This is how to do icons in CSS3 whilst not
+ * slinging graphics  files around the web */
+
+
+
+
+ input:required:invalid, input:focus:invalid {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAeVJREFUeNqkU01oE1EQ/mazSTdRmqSxLVSJVKU9RYoHD8WfHr16kh5EFA8eSy6hXrwUPBSKZ6E9V1CU4tGf0DZWDEQrGkhprRDbCvlpavan3ezu+LLSUnADLZnHwHvzmJlvvpkhZkY7IqFNaTuAfPhhP/8Uo87SGSaDsP27hgYM/lUpy6lHdqsAtM+BPfvqKp3ufYKwcgmWCug6oKmrrG3PoaqngWjdd/922hOBs5C/jJA6x7AiUt8VYVUAVQXXShfIqCYRMZO8/N1N+B8H1sOUwivpSUSVCJ2MAjtVwBAIdv+AQkHQqbOgc+fBvorjyQENDcch16/BtkQdAlC4E6jrYHGgGU18Io3gmhzJuwub6/fQJYNi/YBpCifhbDaAPXFvCBVxXbvfbNGFeN8DkjogWAd8DljV3KRutcEAeHMN/HXZ4p9bhncJHCyhNx52R0Kv/XNuQvYBnM+CP7xddXL5KaJw0TMAF8qjnMvegeK/SLHubhpKDKIrJDlvXoMX3y9xcSMZyBQ+tpyk5hzsa2Ns7LGdfWdbL6fZvHn92d7dgROH/730YBLtiZmEdGPkFnhX4kxmjVe2xgPfCtrRd6GHRtEh9zsL8xVe+pwSzj+OtwvletZZ/wLeKD71L+ZeHHWZ/gowABkp7AwwnEjFAAAAAElFTkSuQmCC);
+    background-position: right top;
+    background-repeat: no-repeat;
+    -moz-box-shadow: none;
+  }
+  input:required:valid {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAepJREFUeNrEk79PFEEUx9/uDDd7v/AAQQnEQokmJCRGwc7/QeM/YGVxsZJQYI/EhCChICYmUJigNBSGzobQaI5SaYRw6imne0d2D/bYmZ3dGd+YQKEHYiyc5GUyb3Y+77vfeWNpreFfhvXfAWAAJtbKi7dff1rWK9vPHx3mThP2Iaipk5EzTg8Qmru38H7izmkFHAF4WH1R52654PR0Oamzj2dKxYt/Bbg1OPZuY3d9aU82VGem/5LtnJscLxWzfzRxaWNqWJP0XUadIbSzu5DuvUJpzq7sfYBKsP1GJeLB+PWpt8cCXm4+2+zLXx4guKiLXWA2Nc5ChOuacMEPv20FkT+dIawyenVi5VcAbcigWzXLeNiDRCdwId0LFm5IUMBIBgrp8wOEsFlfeCGm23/zoBZWn9a4C314A1nCoM1OAVccuGyCkPs/P+pIdVIOkG9pIh6YlyqCrwhRKD3GygK9PUBImIQQxRi4b2O+JcCLg8+e8NZiLVEygwCrWpYF0jQJziYU/ho2TUuCPTn8hHcQNuZy1/94sAMOzQHDeqaij7Cd8Dt8CatGhX3iWxgtFW/m29pnUjR7TSQcRCIAVW1FSr6KAVYdi+5Pj8yunviYHq7f72po3Y9dbi7CxzDO1+duzCXH9cEPAQYAhJELY/AqBtwAAAAASUVORK5CYII=);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    white;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    white;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color:    white;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    white;
+}
+
+
+/* now a custom button for some form validation trickery */
+
+.go_button {
+   border-top: 1px solid #aff2be;
+   background: #054f04;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6ce68d), to(#054f04));
+   background: -webkit-linear-gradient(top, #6ce68d, #054f04);
+   background: -moz-linear-gradient(top, #6ce68d, #054f04);
+   background: -ms-linear-gradient(top, #6ce68d, #054f04);
+   background: -o-linear-gradient(top, #6ce68d, #054f04);
+   padding: 9.5px 19px;
+   margin: 10px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.go_button:hover {
+   border-top-color: #03992b;
+   background: #03992b;
+   color: #ccc;
+   }
+
+.go_button:active {
+   border-top-color: #297502;
+   background: #297502;
+   }
+

@@ -218,12 +218,9 @@
 
            COPY style-css.
 
-
            COPY slider-css.
 
-
            COPY forms-css.
-
 
            COPY validate-js.
 
